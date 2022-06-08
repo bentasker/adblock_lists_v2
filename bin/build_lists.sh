@@ -19,6 +19,26 @@ function blockdomain(){
 }
 
 
+function buildZoneList(){
+    # Build the zones derived lists
+    
+    # Take the manualzones
+    cat config/manualzones.txt | egrep -v -e '^#' | while read -r domain
+    do
+        echo "$domain" >> $blocked_zones
+        echo "$domain"
+    done
+
+    # TODO: the original looked for domains in blockedpages.txt - might want to include that
+    
+    
+    # Take the list of blocked zones and turn it into unbound format
+    cat $blocked_zones | sort | uniq | egrep -v -e '^$' | while read -r domain
+    do
+        echo "local-zone: \"$domain\" redirect" >> $unbound_listbuild
+        echo "local-data: \"$domain A 127.0.0.1\"" >> $unbound_listbuild
+    done
+}
 
 # Create a temporary file for each of the lists
 
@@ -38,15 +58,16 @@ blocked_zones=`mktemp`
 abp=`mktemp`
 
 
+buildZoneList
 
 for blockfile in config/manualblocks/*txt 
 do
     cat $blockfile | egrep -v -e '^#|^$' | while read -r domain
     do
         echo "$domain" >> $domain_listtmp
+        echo "$domain"
     done
 done
-
 
 
 cat $domain_listtmp | sort | uniq | egrep -v -e '^$' | while read -r domain
@@ -55,14 +76,19 @@ do
 done
 
 
+
+
 cat << EOM
 
-============== List===========
+============== List $domain_listtmp ===========
 `cat $domain_listtmp`
 
 
 ============== Unbound ===========
 `cat $unbound_listbuild`
 
+
+============== Zones ==============
+`cat $blocked_zones`
 
 EOM
