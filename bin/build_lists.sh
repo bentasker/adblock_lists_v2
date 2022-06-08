@@ -38,6 +38,12 @@ function blockDomains(){
     done
 }
 
+function buildRegexes(){
+    # Combine the regex config
+
+    cat config/regexes/*txt | sort | uniq > $regex_blocks
+}
+
 function buildZoneList(){
     # Build the zones derived lists
     
@@ -112,12 +118,16 @@ blocked_zones=`mktemp`
 
 # ABP (TODO)
 abp=`mktemp`
+ 
+# Regexes
+regexes=`mktemp`
 
 echo "Building lists"
 # Build the block lists
 buildZoneList
 blockDomains
 buildABP
+buildRegexes
 
 # Finally, install the files
 echo
@@ -134,3 +144,6 @@ mv $unbound_listbuild lists/unbound.txt # used to be autolist.txt
 
 echo "- adblock_plus.txt"
 mv $abp lists/adblock_plus.txt
+
+echo "- regexes"
+mv $regex_blocks lists/regexes.txt
