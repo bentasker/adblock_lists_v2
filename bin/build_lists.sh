@@ -120,7 +120,7 @@ blocked_zones=`mktemp`
 abp=`mktemp`
  
 # Regexes
-regexes=`mktemp`
+$regex_blocks=`mktemp`
 
 echo "Building lists"
 # Build the block lists
