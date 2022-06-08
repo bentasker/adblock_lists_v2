@@ -2,6 +2,13 @@
 #
 # Introduced in jira-projects/ADBLK#1
 
+if [ ! -f .trigger-postcommit ]
+then
+    # Nothing to do
+    exit 0
+fi
+
+# Ensure the remote has been setup
 git remote | grep -q github
 if [ "$?" == "1" ]
 then
@@ -9,5 +16,18 @@ then
     git remote add github git@github.com:bentasker/adblock_lists_v2.git
 fi
 
+
+# Trigger the list build
+bin/build_lists.sh
+
+# Remove the lockfile so our commit amend doesn't put us into a loop
+rm -f .trigger-postcommit
+
+# Commit the changes
+git add lists
+git commit --amend -C HEAD --no-verify
+
+
+# Push
 git push github master
 git push origin master
