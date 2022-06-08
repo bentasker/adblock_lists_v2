@@ -18,15 +18,35 @@ function blockdomain(){
     fi
 }
 
+function blockDomains(){
+    # Process the block files
+    
+    echo "- Domain Lists"
+    
+    for blockfile in config/manualblocks/*txt 
+    do
+        cat $blockfile | egrep -v -e '^#|^$' | while read -r domain
+        do
+            echo "$domain" >> $domain_listtmp
+        done
+    done
+
+
+    cat $domain_listtmp | sort | uniq | egrep -v -e '^$' | while read -r domain
+    do
+        blockdomain $domain
+    done
+}
 
 function buildZoneList(){
     # Build the zones derived lists
+    
+    echo "- Zone Lists"
     
     # Take the manualzones
     cat config/manualzones.txt | egrep -v -e '^#' | while read -r domain
     do
         echo "$domain" >> $blocked_zones
-        echo "$domain"
     done
 
     # Check for any domains blocked in manualpages (i.e. no variables and no path specified)
@@ -46,6 +66,7 @@ function buildZoneList(){
 
 function buildABP(){
 # Generate an ABP compatible list
+echo "- ABP"
 
 DATE=`date +'%Y%m%d%H%M'`
 DATE_FULL=`date`
@@ -71,6 +92,10 @@ cat config/manualpages.txt | egrep -v -e '^#|^$' | sed -e 's/^/||/'  >> $abp
 
 }
 
+
+### Main ####
+
+
 # Create a temporary file for each of the lists
 
 # Compiled temporary domain list
@@ -88,44 +113,24 @@ blocked_zones=`mktemp`
 # ABP (TODO)
 abp=`mktemp`
 
-
+echo "Building lists"
+# Build the block lists
 buildZoneList
-
-for blockfile in config/manualblocks/*txt 
-do
-    cat $blockfile | egrep -v -e '^#|^$' | while read -r domain
-    do
-        echo "$domain" >> $domain_listtmp
-        echo "$domain"
-    done
-done
-
-
-cat $domain_listtmp | sort | uniq | egrep -v -e '^$' | while read -r domain
-do
-    blockdomain $domain
-done
-
-
+blockDomains
 buildABP
 
+# Finally, install the files
+echo
+echo "Installing:"
 
+echo "- blockeddomains.txt"
+cat $domain_listtmp | sort | uniq > lists/blockeddomains.txt
 
-cat << EOM
+echo "- zones.txt"
+cat $blocked_zones | sort | uniq > lists/zones.txt # used to be manualzones.txt
 
-============== List $domain_listtmp ===========
-`cat $domain_listtmp`
+echo "- unbound.txt"
+mv $unbound_listbuild lists/unbound.txt # used to be autolist.txt
 
-
-============== Unbound ===========
-`cat $unbound_listbuild`
-
-
-============== Zones ==============
-`cat $blocked_zones`
-
-
-============== ABP ================
-`cat $abp`
-
-EOM
+echo "- adblock_plus.txt"
+mv $abp lists/adblock_plus.txt
