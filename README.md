@@ -15,7 +15,7 @@ To use the blocklists, you should use one of the following URLS
 - https://raw.github.com/bentasker/adblock_lists_v2/master/lists/unbound.txt
 - https://raw.github.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt
 - https://raw.github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt
-- https://raw,github.com/bentasker/adblock_lists_v2/master/lists/zones.txt
+- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/zones.txt
 
 Which URL will obviously depend on which system you're having consume
 
