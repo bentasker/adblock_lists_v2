@@ -1,0 +1,390 @@
+local-zone: "119.29.196.104.bc.googleusercontent.com" redirect
+local-data: "119.29.196.104.bc.googleusercontent.com A 127.0.0.1"
+local-zone: "175.220.196.104.bc.googleusercontent.com" redirect
+local-data: "175.220.196.104.bc.googleusercontent.com A 127.0.0.1"
+local-zone: "1mobile.com" redirect
+local-data: "1mobile.com A 127.0.0.1"
+local-zone: "2mdn.net" redirect
+local-data: "2mdn.net A 127.0.0.1"
+local-zone: "2o7.net" redirect
+local-data: "2o7.net A 127.0.0.1"
+local-zone: "32d1d3b9c.se" redirect
+local-data: "32d1d3b9c.se A 127.0.0.1"
+local-zone: "aaxads.com" redirect
+local-data: "aaxads.com A 127.0.0.1"
+local-zone: "adadvisor.net" redirect
+local-data: "adadvisor.net A 127.0.0.1"
+local-zone: "adbrn.com" redirect
+local-data: "adbrn.com A 127.0.0.1"
+local-zone: "ad-center.com" redirect
+local-data: "ad-center.com A 127.0.0.1"
+local-zone: "adcint.net" redirect
+local-data: "adcint.net A 127.0.0.1"
+local-zone: "adclarity.com" redirect
+local-data: "adclarity.com A 127.0.0.1"
+local-zone: "adexprt.com" redirect
+local-data: "adexprt.com A 127.0.0.1"
+local-zone: "ad.india.xiaomi.com" redirect
+local-data: "ad.india.xiaomi.com A 127.0.0.1"
+local-zone: "ad.intl.xiaomi.com" redirect
+local-data: "ad.intl.xiaomi.com A 127.0.0.1"
+local-zone: "admicro.vn" redirect
+local-data: "admicro.vn A 127.0.0.1"
+local-zone: "admob.com" redirect
+local-data: "admob.com A 127.0.0.1"
+local-zone: "adnxs.com" redirect
+local-data: "adnxs.com A 127.0.0.1"
+local-zone: "ad.rus.xiaomi.com" redirect
+local-data: "ad.rus.xiaomi.com A 127.0.0.1"
+local-zone: "ad.us.xiaomi.com" redirect
+local-data: "ad.us.xiaomi.com A 127.0.0.1"
+local-zone: "advideo.ru" redirect
+local-data: "advideo.ru A 127.0.0.1"
+local-zone: "ad-x.co.uk" redirect
+local-data: "ad-x.co.uk A 127.0.0.1"
+local-zone: "ad.xiaomi.com" redirect
+local-data: "ad.xiaomi.com A 127.0.0.1"
+local-zone: "adxxx.com" redirect
+local-data: "adxxx.com A 127.0.0.1"
+local-zone: "agkn.com" redirect
+local-data: "agkn.com A 127.0.0.1"
+local-zone: "alternateatmosphere.com" redirect
+local-data: "alternateatmosphere.com A 127.0.0.1"
+local-zone: "amazon-adsystem.com" redirect
+local-data: "amazon-adsystem.com A 127.0.0.1"
+local-zone: "amobee.com" redirect
+local-data: "amobee.com A 127.0.0.1"
+local-zone: "and.co.uk" redirect
+local-data: "and.co.uk A 127.0.0.1"
+local-zone: "app.chat.xiaomi.net" redirect
+local-data: "app.chat.xiaomi.net A 127.0.0.1"
+local-zone: "applesarmy.com" redirect
+local-data: "applesarmy.com A 127.0.0.1"
+local-zone: "appnexus.com" redirect
+local-data: "appnexus.com A 127.0.0.1"
+local-zone: "attractivecap.com" redirect
+local-data: "attractivecap.com A 127.0.0.1"
+local-zone: "awakebird.com" redirect
+local-data: "awakebird.com A 127.0.0.1"
+local-zone: "bigsea.weborama.com" redirect
+local-data: "bigsea.weborama.com A 127.0.0.1"
+local-zone: "bircgizd.com" redirect
+local-data: "bircgizd.com A 127.0.0.1"
+local-zone: "bizographics.com" redirect
+local-data: "bizographics.com A 127.0.0.1"
+local-zone: "breakfastboat.com" redirect
+local-data: "breakfastboat.com A 127.0.0.1"
+local-zone: "breezybath.com" redirect
+local-data: "breezybath.com A 127.0.0.1"
+local-zone: "captifymedia.com" redirect
+local-data: "captifymedia.com A 127.0.0.1"
+local-zone: "caringzinc.com" redirect
+local-data: "caringzinc.com A 127.0.0.1"
+local-zone: "ccdkyvyw.com" redirect
+local-data: "ccdkyvyw.com A 127.0.0.1"
+local-zone: "ccgateway.net" redirect
+local-data: "ccgateway.net A 127.0.0.1"
+local-zone: "clevertap.com" redirect
+local-data: "clevertap.com A 127.0.0.1"
+local-zone: "clickadu.com" redirect
+local-data: "clickadu.com A 127.0.0.1"
+local-zone: "clmbtech.com" redirect
+local-data: "clmbtech.com A 127.0.0.1"
+local-zone: "coin-hive.com" redirect
+local-data: "coin-hive.com A 127.0.0.1"
+local-zone: "coinhive.com" redirect
+local-data: "coinhive.com A 127.0.0.1"
+local-zone: "commoncannon.com" redirect
+local-data: "commoncannon.com A 127.0.0.1"
+local-zone: "cpmclick.com" redirect
+local-data: "cpmclick.com A 127.0.0.1"
+local-zone: "cubchannel.com" redirect
+local-data: "cubchannel.com A 127.0.0.1"
+local-zone: "dbtaclpoahri.com" redirect
+local-data: "dbtaclpoahri.com A 127.0.0.1"
+local-zone: "ddmr.com" redirect
+local-data: "ddmr.com A 127.0.0.1"
+local-zone: "demdex.net" redirect
+local-data: "demdex.net A 127.0.0.1"
+local-zone: "detectdinner.com" redirect
+local-data: "detectdinner.com A 127.0.0.1"
+local-zone: "displaybutler.com" redirect
+local-data: "displaybutler.com A 127.0.0.1"
+local-zone: "disqusads.com" redirect
+local-data: "disqusads.com A 127.0.0.1"
+local-zone: "dmgmediaprivacy.co.uk" redirect
+local-data: "dmgmediaprivacy.co.uk A 127.0.0.1"
+local-zone: "doubleclick.net" redirect
+local-data: "doubleclick.net A 127.0.0.1"
+local-zone: "dpallyihgtgu.com" redirect
+local-data: "dpallyihgtgu.com A 127.0.0.1"
+local-zone: "dpmserv.com" redirect
+local-data: "dpmserv.com A 127.0.0.1"
+local-zone: "dxcqavshmvst.com" redirect
+local-data: "dxcqavshmvst.com A 127.0.0.1"
+local-zone: "edvbyybaviln.com" redirect
+local-data: "edvbyybaviln.com A 127.0.0.1"
+local-zone: "ensighten.com" redirect
+local-data: "ensighten.com A 127.0.0.1"
+local-zone: "eum-appdynamics.com" redirect
+local-data: "eum-appdynamics.com A 127.0.0.1"
+local-zone: "exelator.com" redirect
+local-data: "exelator.com A 127.0.0.1"
+local-zone: "fbbjlubvwmwd.com" redirect
+local-data: "fbbjlubvwmwd.com A 127.0.0.1"
+local-zone: "fearfulflag.com" redirect
+local-data: "fearfulflag.com A 127.0.0.1"
+local-zone: "finalizeforce.com" redirect
+local-data: "finalizeforce.com A 127.0.0.1"
+local-zone: "flurry.com" redirect
+local-data: "flurry.com A 127.0.0.1"
+local-zone: "forecasttiger.com" redirect
+local-data: "forecasttiger.com A 127.0.0.1"
+local-zone: "fqpteozo.com" redirect
+local-data: "fqpteozo.com A 127.0.0.1"
+local-zone: "functionalclam.com" redirect
+local-data: "functionalclam.com A 127.0.0.1"
+local-zone: "futuristicfifth.com" redirect
+local-data: "futuristicfifth.com A 127.0.0.1"
+local-zone: "geazikjazoid.com" redirect
+local-data: "geazikjazoid.com A 127.0.0.1"
+local-zone: "genericlink.com" redirect
+local-data: "genericlink.com A 127.0.0.1"
+local-zone: "getadmiral.com" redirect
+local-data: "getadmiral.com A 127.0.0.1"
+local-zone: "go2cloud.org" redirect
+local-data: "go2cloud.org A 127.0.0.1"
+local-zone: "goforandroid.com" redirect
+local-data: "goforandroid.com A 127.0.0.1"
+local-zone: "go-mpulse.net" redirect
+local-data: "go-mpulse.net A 127.0.0.1"
+local-zone: "google-analytics.com" redirect
+local-data: "google-analytics.com A 127.0.0.1"
+local-zone: "googletagmanager.com" redirect
+local-data: "googletagmanager.com A 127.0.0.1"
+local-zone: "go.padsdel.com" redirect
+local-data: "go.padsdel.com A 127.0.0.1"
+local-zone: "grapeshot.co.uk" redirect
+local-data: "grapeshot.co.uk A 127.0.0.1"
+local-zone: "growthscore.io" redirect
+local-data: "growthscore.io A 127.0.0.1"
+local-zone: "gscontxt.net" redirect
+local-data: "gscontxt.net A 127.0.0.1"
+local-zone: "heracgjcuqmk.com" redirect
+local-data: "heracgjcuqmk.com A 127.0.0.1"
+local-zone: "hmrcmeclaim.com" redirect
+local-data: "hmrcmeclaim.com A 127.0.0.1"
+local-zone: "ichlnk.com" redirect
+local-data: "ichlnk.com A 127.0.0.1"
+local-zone: "ieqprskfariw.com" redirect
+local-data: "ieqprskfariw.com A 127.0.0.1"
+local-zone: "igupodzh.com" redirect
+local-data: "igupodzh.com A 127.0.0.1"
+local-zone: "imyqdbxq.com" redirect
+local-data: "imyqdbxq.com A 127.0.0.1"
+local-zone: "infra.systems" redirect
+local-data: "infra.systems A 127.0.0.1"
+local-zone: "insightexpressai.com" redirect
+local-data: "insightexpressai.com A 127.0.0.1"
+local-zone: "instraffic.com" redirect
+local-data: "instraffic.com A 127.0.0.1"
+local-zone: "irxpndjg.com" redirect
+local-data: "irxpndjg.com A 127.0.0.1"
+local-zone: "izwsvyqv.com" redirect
+local-data: "izwsvyqv.com A 127.0.0.1"
+local-zone: "jbgehhqvfppf.com" redirect
+local-data: "jbgehhqvfppf.com A 127.0.0.1"
+local-zone: "jlflzjdt.com" redirect
+local-data: "jlflzjdt.com A 127.0.0.1"
+local-zone: "jurymedia.net" redirect
+local-data: "jurymedia.net A 127.0.0.1"
+local-zone: "kgkjlivo.com" redirect
+local-data: "kgkjlivo.com A 127.0.0.1"
+local-zone: "livefyre.com" redirect
+local-data: "livefyre.com A 127.0.0.1"
+local-zone: "logon17.co.uk" redirect
+local-data: "logon17.co.uk A 127.0.0.1"
+local-zone: "massivemark.com" redirect
+local-data: "massivemark.com A 127.0.0.1"
+local-zone: "mathtag.com" redirect
+local-data: "mathtag.com A 127.0.0.1"
+local-zone: "mediavoice.com" redirect
+local-data: "mediavoice.com A 127.0.0.1"
+local-zone: "metapelite.com" redirect
+local-data: "metapelite.com A 127.0.0.1"
+local-zone: "mgid.com" redirect
+local-data: "mgid.com A 127.0.0.1"
+local-zone: "mixpanel.com" redirect
+local-data: "mixpanel.com A 127.0.0.1"
+local-zone: "moatads.com" redirect
+local-data: "moatads.com A 127.0.0.1"
+local-zone: "mobisla.com" redirect
+local-data: "mobisla.com A 127.0.0.1"
+local-zone: "mobpartner.mobi" redirect
+local-data: "mobpartner.mobi A 127.0.0.1"
+local-zone: "mobytrks.com" redirect
+local-data: "mobytrks.com A 127.0.0.1"
+local-zone: "mopub.com" redirect
+local-data: "mopub.com A 127.0.0.1"
+local-zone: "movemeal.com" redirect
+local-data: "movemeal.com A 127.0.0.1"
+local-zone: "mpstat.us" redirect
+local-data: "mpstat.us A 127.0.0.1"
+local-zone: "mxpnl.com" redirect
+local-data: "mxpnl.com A 127.0.0.1"
+local-zone: "mycalapp.com" redirect
+local-data: "mycalapp.com A 127.0.0.1"
+local-zone: "namesakeoscilloscopemarquis.com" redirect
+local-data: "namesakeoscilloscopemarquis.com A 127.0.0.1"
+local-zone: "newsupdatedepot.info" redirect
+local-data: "newsupdatedepot.info A 127.0.0.1"
+local-zone: "npttech.com" redirect
+local-data: "npttech.com A 127.0.0.1"
+local-zone: "okmuxdbq.com" redirect
+local-data: "okmuxdbq.com A 127.0.0.1"
+local-zone: "outbrain.com" redirect
+local-data: "outbrain.com A 127.0.0.1"
+local-zone: "padsdelivery.com" redirect
+local-data: "padsdelivery.com A 127.0.0.1"
+local-zone: "parsely.com" redirect
+local-data: "parsely.com A 127.0.0.1"
+local-zone: "penspade.com" redirect
+local-data: "penspade.com A 127.0.0.1"
+local-zone: "peqdwnztlzjp.com" redirect
+local-data: "peqdwnztlzjp.com A 127.0.0.1"
+local-zone: "picadmedia.com" redirect
+local-data: "picadmedia.com A 127.0.0.1"
+local-zone: "plgdhrvzsvxp.com" redirect
+local-data: "plgdhrvzsvxp.com A 127.0.0.1"
+local-zone: "p-n.io" redirect
+local-data: "p-n.io A 127.0.0.1"
+local-zone: "polarmobile.com" redirect
+local-data: "polarmobile.com A 127.0.0.1"
+local-zone: "pop6.com" redirect
+local-data: "pop6.com A 127.0.0.1"
+local-zone: "ppuuwencqopa.com" redirect
+local-data: "ppuuwencqopa.com A 127.0.0.1"
+local-zone: "pub2srv.com" redirect
+local-data: "pub2srv.com A 127.0.0.1"
+local-zone: "pubexchange.com" redirect
+local-data: "pubexchange.com A 127.0.0.1"
+local-zone: "pussl18.com" redirect
+local-data: "pussl18.com A 127.0.0.1"
+local-zone: "pwhd.space" redirect
+local-data: "pwhd.space A 127.0.0.1"
+local-zone: "quickcash-systems.com" redirect
+local-data: "quickcash-systems.com A 127.0.0.1"
+local-zone: "referdriving.com" redirect
+local-data: "referdriving.com A 127.0.0.1"
+local-zone: "revsci.net" redirect
+local-data: "revsci.net A 127.0.0.1"
+local-zone: "rpulxcwmnuxi.com" redirect
+local-data: "rpulxcwmnuxi.com A 127.0.0.1"
+local-zone: "rtschannel.com" redirect
+local-data: "rtschannel.com A 127.0.0.1"
+local-zone: "runmewivel.com" redirect
+local-data: "runmewivel.com A 127.0.0.1"
+local-zone: "ruovcruc.com" redirect
+local-data: "ruovcruc.com A 127.0.0.1"
+local-zone: "scorecardresearch.com" redirect
+local-data: "scorecardresearch.com A 127.0.0.1"
+local-zone: "sdad.guru" redirect
+local-data: "sdad.guru A 127.0.0.1"
+local-zone: "service.maxymiser.net" redirect
+local-data: "service.maxymiser.net A 127.0.0.1"
+local-zone: "siteimproveanalytics.com" redirect
+local-data: "siteimproveanalytics.com A 127.0.0.1"
+local-zone: "siteimprove.com" redirect
+local-data: "siteimprove.com A 127.0.0.1"
+local-zone: "skimresources.com" redirect
+local-data: "skimresources.com A 127.0.0.1"
+local-zone: "slfpu.com" redirect
+local-data: "slfpu.com A 127.0.0.1"
+local-zone: "smilingsock.com" redirect
+local-data: "smilingsock.com A 127.0.0.1"
+local-zone: "softwarecactus.eu" redirect
+local-data: "softwarecactus.eu A 127.0.0.1"
+local-zone: "s-onetag.com" redirect
+local-data: "s-onetag.com A 127.0.0.1"
+local-zone: "spot.im" redirect
+local-data: "spot.im A 127.0.0.1"
+local-zone: "squeakzinc.com" redirect
+local-data: "squeakzinc.com A 127.0.0.1"
+local-zone: "sriaqmzx.com" redirect
+local-data: "sriaqmzx.com A 127.0.0.1"
+local-zone: "symcd.com" redirect
+local-data: "symcd.com A 127.0.0.1"
+local-zone: "tabeduhsdhlkalelecelxbcwvsfyspwictbszchbbratpojhlb.com" redirect
+local-data: "tabeduhsdhlkalelecelxbcwvsfyspwictbszchbbratpojhlb.com A 127.0.0.1"
+local-zone: "tapad.com" redirect
+local-data: "tapad.com A 127.0.0.1"
+local-zone: "tarttendency.com" redirect
+local-data: "tarttendency.com A 127.0.0.1"
+local-zone: "tdzvm.pw" redirect
+local-data: "tdzvm.pw A 127.0.0.1"
+local-zone: "texturetrick.com" redirect
+local-data: "texturetrick.com A 127.0.0.1"
+local-zone: "thecloudtrader.com" redirect
+local-data: "thecloudtrader.com A 127.0.0.1"
+local-zone: "theoxfordmethod.com" redirect
+local-data: "theoxfordmethod.com A 127.0.0.1"
+local-zone: "trafficnetworkads24.com" redirect
+local-data: "trafficnetworkads24.com A 127.0.0.1"
+local-zone: "truthfulturn.com" redirect
+local-data: "truthfulturn.com A 127.0.0.1"
+local-zone: "tummiarunzpf.com" redirect
+local-data: "tummiarunzpf.com A 127.0.0.1"
+local-zone: "tzwaw.pw" redirect
+local-data: "tzwaw.pw A 127.0.0.1"
+local-zone: "udkcrj.com" redirect
+local-data: "udkcrj.com A 127.0.0.1"
+local-zone: "uk-id-91-user.com" redirect
+local-data: "uk-id-91-user.com A 127.0.0.1"
+local-zone: "unbecominghall.com" redirect
+local-data: "unbecominghall.com A 127.0.0.1"
+local-zone: "unequalbrake.com" redirect
+local-data: "unequalbrake.com A 127.0.0.1"
+local-zone: "user-red.com" redirect
+local-data: "user-red.com A 127.0.0.1"
+local-zone: "vdna-assets.com" redirect
+local-data: "vdna-assets.com A 127.0.0.1"
+local-zone: "vdyqcdxqvebl.com" redirect
+local-data: "vdyqcdxqvebl.com A 127.0.0.1"
+local-zone: "virtmethod.com" redirect
+local-data: "virtmethod.com A 127.0.0.1"
+local-zone: "vnyginzinvmq.com" redirect
+local-data: "vnyginzinvmq.com A 127.0.0.1"
+local-zone: "voicefive.com" redirect
+local-data: "voicefive.com A 127.0.0.1"
+local-zone: "vrewpywootyu.com" redirect
+local-data: "vrewpywootyu.com A 127.0.0.1"
+local-zone: "vrqajyuu.com" redirect
+local-data: "vrqajyuu.com A 127.0.0.1"
+local-zone: "vxqhchlyijwu.com" redirect
+local-data: "vxqhchlyijwu.com A 127.0.0.1"
+local-zone: "wbvsgqtwyvjb.com" redirect
+local-data: "wbvsgqtwyvjb.com A 127.0.0.1"
+local-zone: "wdcxuezpxivqgmecukeirnsyhjpjoqdqfdtchquwyqatlwxtgq.com" redirect
+local-data: "wdcxuezpxivqgmecukeirnsyhjpjoqdqfdtchquwyqatlwxtgq.com A 127.0.0.1"
+local-zone: "wgefjuno.com" redirect
+local-data: "wgefjuno.com A 127.0.0.1"
+local-zone: "wkexsfmw.com" redirect
+local-data: "wkexsfmw.com A 127.0.0.1"
+local-zone: "wrmcfyzl.com" redirect
+local-data: "wrmcfyzl.com A 127.0.0.1"
+local-zone: "ws.pleasedontslaymy.download" redirect
+local-data: "ws.pleasedontslaymy.download A 127.0.0.1"
+local-zone: "wsscyuyclild.com" redirect
+local-data: "wsscyuyclild.com A 127.0.0.1"
+local-zone: "wwwpromoter.com" redirect
+local-data: "wwwpromoter.com A 127.0.0.1"
+local-zone: "wzrkt.com" redirect
+local-data: "wzrkt.com A 127.0.0.1"
+local-zone: "wzueqhwf.com" redirect
+local-data: "wzueqhwf.com A 127.0.0.1"
+local-zone: "yaqysxlohdyg.com" redirect
+local-data: "yaqysxlohdyg.com A 127.0.0.1"
+local-zone: "ymlbuooxppzt.com" redirect
+local-data: "ymlbuooxppzt.com A 127.0.0.1"
+local-zone: "ynrbxyxmvihoydoduefogolpzgdlpnejalxldwjlnsolmismqd.com" redirect
+local-data: "ynrbxyxmvihoydoduefogolpzgdlpnejalxldwjlnsolmismqd.com A 127.0.0.1"
