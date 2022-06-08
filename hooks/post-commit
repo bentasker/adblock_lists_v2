@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Introduced in jira-projects/ADBLK#1
+
+git remote | grep -q github
+if [ "$?" == "1" ]
+then
+    # Add the remote
+    git remote add github git@github.com:bentasker/adblock_lists_v2.git
+fi
+
+git push github master
+git push origin master
