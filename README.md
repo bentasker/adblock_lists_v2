@@ -30,8 +30,8 @@ The `list` directory in this repository contains more or less a single adblock l
 - [`adblock_plus.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/adblock_plus.txt): Adblock Plus and UBlock Origin compatible format
 - [`unbound.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/unbound.txt): Unbound config compatible format
 - [`blockeddomains.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt): A simple list of Blocked domains
-- [`regexes.txt`](https://raw,github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt): A list of zone wide blocks
-- [`zones.txt`](https://raw,github.com/bentasker/adblock_lists_v2/master/lists/zones.txt): A list of zone wide blocks
+- [`regexes.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt): A list of zone wide blocks
+- [`zones.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/zones.txt): A list of zone wide blocks
 
 The list of blocked zones can be used with a parser to [generate regexes to feed into PiHole](https://github.com/bentasker/adblocklists/blob/master/bin/pihole_apply_regexes.sh).
 
