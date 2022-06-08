@@ -29,8 +29,11 @@ function buildZoneList(){
         echo "$domain"
     done
 
-    # TODO: the original looked for domains in blockedpages.txt - might want to include that
-    
+    # Check for any domains blocked in manualpages (i.e. no variables and no path specified)
+    egrep -v -e '/|\$' config/manualpages.txt | egrep -v -e '^#' | sed 's/www\.//g' | while read -r domain
+    do
+        echo "$domain" >> $blocked_zones
+    done
     
     # Take the list of blocked zones and turn it into unbound format
     cat $blocked_zones | sort | uniq | egrep -v -e '^$' | while read -r domain
