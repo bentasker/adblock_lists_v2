@@ -40,6 +40,34 @@ function buildZoneList(){
     done
 }
 
+
+function buildABP(){
+# Generate an ABP compatible list
+
+DATE=`date +'%Y%m%d%H%M'`
+DATE_FULL=`date`
+
+cat << EOM > $abp
+[Adblock Plus 2.0]
+! Version: $DATE
+! Title: B Tasker
+! Last modified: $DATE_FULL
+! Expires: 4 days (update frequency)
+! Homepage: https://projects.bentasker.co.uk/gils_projects/project/jira-projects/ADBLK.html
+! Licence: https://www.bentasker.co.uk/licensedetails
+! 
+! Basically a list of ad domains that have snuck past my more traditional filters at one point or another
+! 
+! -----------------------General advert blocking filters-----------------------!
+! *** btasker:adblock/adblock_compiled_v2.txt ***
+EOM
+
+cat config/manualblocks/*.txt | egrep -v -e '^#|^$' | sed -e 's/^/||/' | sed -e 's/$/^*/' >> $abp
+cat config/manualzones.txt | egrep -v -e '^#|^$' | sed -e 's/^/||*./' | sed -e 's/$/^*/' >> $abp
+cat config/manualpages.txt | egrep -v -e '^#|^$' | sed -e 's/^/||/'  >> $abp
+
+}
+
 # Create a temporary file for each of the lists
 
 # Compiled temporary domain list
@@ -76,6 +104,8 @@ do
 done
 
 
+buildABP
+
 
 
 cat << EOM
@@ -90,5 +120,9 @@ cat << EOM
 
 ============== Zones ==============
 `cat $blocked_zones`
+
+
+============== ABP ================
+`cat $abp`
 
 EOM
