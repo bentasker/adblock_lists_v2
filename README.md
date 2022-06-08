@@ -1,40 +1,65 @@
-Adblock lists
-===============
+Adblock lists V2
+===================
 
-I've been using my own amended version of EasyList for quite a while in my adblocker, and also block various ad domains at the DNS level. Changes to Easylist tend to be either overriding things they've whitelisted, or adding domains that are not yet included (and in some cases, may never be).
+I used to build a range of Adblock lists, including a modified version of the Easylist ad blocking list.
 
-This repo houses both the scripts used to generate the lists as well as the configuration files. 
+However it wasn't really feasible to continue publishing and maintaining those lists (more information in [jira-projects/ADBLK#1](https://projects.bentasker.co.uk/gils_projects/project/jira-projects/1.html)) so this set of lists was born.
 
-I've moved them into a repo primarily so I can use commit messages to record why I added a block.
+----
 
-The resulting lists are available at https://www.bentasker.co.uk/adblock/
+### Usage
+
+To use the blocklists, you should use one of the following URLS
+
+- https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/adblock_plus.txt
+- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/unbound.txt
+- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt
+- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt
+- https://raw,github.com/bentasker/adblock_lists_v2/master/lists/zones.txt
+
+Which URL will obviously depend on which system you're having consume
+
+If you're using [`pihole`](https://pi-hole.net/) then you'll want to use `blockeddomains.txt` and might also want to [configure Pi-Hole to update blocklists more regularly](https://www.bentasker.co.uk/posts/blog/privacy/467-configuring-pi-hole-to-update-blocklists-more-regularly.html)
+
+----
+
+### Block Lists
+
+The `list` directory in this repository contains more or less a single adblock list published in a number of different formats formats
+
+- [`adblock_plus.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/adblock_plus.txt): Adblock Plus and UBlock Origin compatible format
+- [`unbound.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/unbound.txt): Unbound config compatible format
+- [`blockeddomains.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt): A simple list of Blocked domains
+- [`regexes.txt`](https://raw,github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt): A list of zone wide blocks
+- [`zones.txt`](https://raw,github.com/bentasker/adblock_lists_v2/master/lists/zones.txt): A list of zone wide blocks
+
+The list of blocked zones can be used with a parser to [generate regexes to feed into PiHole](https://github.com/bentasker/adblocklists/blob/master/bin/pihole_apply_regexes.sh).
 
 
-Usage
--------
+----
 
-The scripts aren't really written for anyone but me (so may need tweaking), but if you do want to run them yourself:
+### Config Files
 
-* Clone the repo down somewhere (needs to be web-accessible so your blocker can fetch the lists)
-* Add a cronjob to call `bin/update_addomains.sh`, the first (and only) argument should be the path to the repo
+The blocklists are built based upon files within the `config` directory
 
-Lists should then generate and refresh automatically
+- `manualpages.txt`: full URLs, will be included in the ABP lists. If a domain is specified with no path/args then it'll generate a zone-wide block too
+- `manualzones.txt`: DNS zones to block. Anything listed here will have every subdomain of it blocked (where possible)
+- `manualblocks/*` : directory of domain names to block - seperate files can be used to maintain a semi-logical order
+- `regexes/*`: a directory of regexes to block - seperate files can be used to maintain a semi-logical order
 
-To manually rebuild the adblock lists, `cd` into the repo and run `bin/build_abp.sh`
 
+----
 
-Files
--------
+### Hooks
 
-* _easylist_strip_absolute.txt_ - Any lines in vanilla easylist exactly matching a line in this file will be stripped
-* _easylist_strip.txt_ - Any lines in vanilla easylist containing substrings in this file will be stripped
-* _manualblock.txt_ - Used to block specific domains
-* _manualpages.txt_ - Used to block specific pages/URLs
-* _manualzones.txt_ - Used to block an entire DNS zone
+The lists are updated via git hooks, so when first cloning the repo down it's necessary to run
 
+    hooks/post-merge
+    
+The hooks should be self-maintaining after that.
 
 
 License
 --------
 
-Lists and scripts are licensed under the [BSD 3 Clause License](http://opensource.org/licenses/BSD-3-Clause) and are Copyright (C) 2018 [Ben Tasker](https://www.bentasker.co.uk)
+Lists and scripts are licensed under the [BSD 3 Clause License](http://opensource.org/licenses/BSD-3-Clause) and are Copyright (C) 2022 [Ben Tasker](https://www.bentasker.co.uk)
