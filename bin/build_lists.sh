@@ -8,9 +8,18 @@ function blockdomain(){
     domain=$1
     echo "$domain" >> $blocked_doms
 
+    # Introduced in jira-projects/ADBLK#2
+    dom_suffix="${domain#*.}"
+    tld=${dom_suffix#*.}
+
+    if [ "$tld" == "$dom_suffix" ]
+    then
+        # there was no additional domain on the end
+        dom_suffix=$domain
+    fi
 
     # Check if the domain exists within a zone that'll be blocked
-    egrep -v -e "^${domain#*.}|^$domain" $blocked_zones > /dev/null
+    egrep -q -e "^$dom_suffix|^$domain" $blocked_zones    
     if [ "$?" == "1" ]
     then
         echo "local-data: \"$domain A 127.0.0.1\"" >> $unbound_listbuild
