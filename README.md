@@ -33,7 +33,7 @@ The `list` directory in this repository contains more or less a single adblock l
 - [`regexes.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/regexes.txt): A list of zone wide blocks
 - [`zones.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/zones.txt): A list of zone wide blocks
 
-The list of blocked zones can be used with a parser to [generate regexes to feed into PiHole](https://github.com/bentasker/bentasker/adblock_lists_v2/examples/pihole_update_regex_lists.py).
+The list of blocked zones can be used with a parser to [generate regexes to feed into PiHole](https://github.com/bentasker/adblock_lists_v2/examples/pihole_update_regex_lists.py).
 
 
 ----
