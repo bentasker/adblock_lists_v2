@@ -12,10 +12,10 @@ However it wasn't really feasible to continue publishing and maintaining those l
 To use the blocklists, you should use one of the following URLS
 
 - https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/adblock_plus.txt
-- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/unbound.txt
-- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt
-- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt
-- https://raw.github.com/bentasker/adblock_lists_v2/master/lists/zones.txt
+- https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/unbound.txt
+- https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt
+- https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/regexes.txt
+- https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/zones.txt
 
 Which URL will obviously depend on which system you're having consume
 
@@ -28,12 +28,12 @@ If you're using [`pihole`](https://pi-hole.net/) then you'll want to use `blocke
 The `list` directory in this repository contains more or less a single adblock list published in a number of different formats formats
 
 - [`adblock_plus.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/adblock_plus.txt): Adblock Plus and UBlock Origin compatible format
-- [`unbound.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/unbound.txt): Unbound config compatible format
-- [`blockeddomains.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt): A simple list of Blocked domains
-- [`regexes.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt): A list of zone wide blocks
-- [`zones.txt`](https://raw.github.com/bentasker/adblock_lists_v2/master/lists/zones.txt): A list of zone wide blocks
+- [`unbound.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/unbound.txt): Unbound config compatible format
+- [`blockeddomains.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/blockeddomains.txt): A simple list of Blocked domains
+- [`regexes.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/regexes.txt): A list of zone wide blocks
+- [`zones.txt`](https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/zones.txt): A list of zone wide blocks
 
-The list of blocked zones can be used with a parser to [generate regexes to feed into PiHole](https://github.com/bentasker/adblocklists/blob/master/bin/pihole_apply_regexes.sh).
+The list of blocked zones can be used with a parser to [generate regexes to feed into PiHole](https://github.com/bentasker/bentasker/adblock_lists_v2/examples/pihole_update_regex_lists.py).
 
 
 ----

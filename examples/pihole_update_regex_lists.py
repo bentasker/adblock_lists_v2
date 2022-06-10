@@ -70,8 +70,8 @@ def fetchZoneList(url):
     
 
 # Fetch the two lists
-regexes = fetchList('https://raw.github.com/bentasker/adblock_lists_v2/master/lists/regexes.txt')
-zones = fetchZoneList("https://raw.github.com/bentasker/adblock_lists_v2/master/lists/zones.txt")
+regexes = fetchList('https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/regexes.txt')
+zones = fetchZoneList("https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/zones.txt")
 
 
 # Merge them
