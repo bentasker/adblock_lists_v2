@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206102017
+! Version: 202206102020
 ! Title: B Tasker
-! Last modified: Fri 10 Jun 20:17:09 BST 2022
+! Last modified: Fri 10 Jun 20:20:24 BST 2022
 ! Expires: 4 days (update frequency)
 ! Homepage: https://projects.bentasker.co.uk/gils_projects/project/jira-projects/ADBLK.html
 ! Licence: https://www.bentasker.co.uk/licensedetails
@@ -229,6 +229,7 @@
 ||ewicap.com^*
 ||exanae.com^*
 ||exchad.com^*
+||exchak.com^*
 ||exemix.com^*
 ||exemph.com^*
 ||exteet.com^*
@@ -474,6 +475,7 @@
 ||snonsy.com^*
 ||snouft.com^*
 ||sobalf.com^*
+||soluth.com^*
 ||soonen.com^*
 ||spaigh.com^*
 ||spapan.com^*
