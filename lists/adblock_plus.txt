@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202206101929
+! Version: 202206101956
 ! Title: B Tasker
-! Last modified: Fri 10 Jun 19:29:53 BST 2022
+! Last modified: Fri 10 Jun 19:56:04 BST 2022
 ! Expires: 4 days (update frequency)
 ! Homepage: https://projects.bentasker.co.uk/gils_projects/project/jira-projects/ADBLK.html
 ! Licence: https://www.bentasker.co.uk/licensedetails
@@ -86,13 +86,47 @@
 ||vprza.com^*
 ||smetrics.barclays.co.uk^*
 ||mystifying-swartz-25df79.netlify.app^*
-||vibuin.com^*
-||pecult.com^*
-||wahess.com^*
-||sudail.com^*
-||purgma.com^*
+||aboage.com^*
+||addeby.com^*
+||althef.com^*
+||bashod.com^*
+||builip.com^*
+||cootro.com^*
+||defeak.com^*
+||desadu.com^*
 ||dwirow.com^*
-||crrepo.com^*
+||etruet.com^*
+||evealm.com^*
+||fenefa.com^*
+||flibao.com^*
+||gobsea.com^*
+||htmorn.com^*
+||jemock.com^*
+||latcoy.com^*
+||linurk.com^*
+||mbitag.com^*
+||nazoid.com^*
+||pecult.com^*
+||prautl.com^*
+||requial.com^*
+||rundse.com^*
+||sluxur.com^*
+||snonoz.com^*
+||surzoe.com^*
+||tattid.com^*
+||throun.com^*
+||thumac.com^*
+||ticuru.com^*
+||timull.com^*
+||troild.com^*
+||vibuin.com^*
+||wahess.com^*
+||waniks.com^*
+||werese.com^*
+||wiftov.com^*
+||wosork.com^*
+||yorage.com^*
+||zsinek.com^*
 ||2znp09oa.com^*
 ||4jnzhl0d0.com^*
 ||5mcwl.pw^*
