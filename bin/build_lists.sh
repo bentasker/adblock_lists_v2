@@ -78,6 +78,18 @@ function buildZoneList(){
     done
 }
 
+function buildAllowList(){
+
+    echo "- Allow List"
+    
+    for allowfile in config/manualallow/*txt
+    do
+        cat $allowfile | egrep -v -e '^#|^$' | while read -r domain
+        do
+            echo "$domain" >> $domain_allowlist
+        done
+    done
+}
 
 function buildABP(){
 # Generate an ABP compatible list
@@ -113,6 +125,9 @@ cat config/manualpages.txt | egrep -v -e '^#|^$' | sed -e 's/^/||/'  >> $abp
 
 # Create a temporary file for each of the lists
 
+# Domain allowlist - bypass blocks in Pihole etc
+domain_allowlist=`mktemp`
+
 # Compiled temporary domain list
 domain_listtmp=`mktemp`
 
@@ -137,10 +152,14 @@ buildZoneList
 blockDomains
 buildABP
 buildRegexes
+buildAllowList
 
 # Finally, install the files
 echo
 echo "Installing:"
+
+echo "- allowlist.txt"
+cat $domain_allowlist | sort | uniq > lists/alloweddomains.txt
 
 echo "- blockeddomains.txt"
 cat $domain_listtmp | sort | uniq > lists/blockeddomains.txt
