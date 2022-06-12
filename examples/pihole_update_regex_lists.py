@@ -63,8 +63,13 @@ def fetchZoneList(url):
     # Currently just a domain list, we need to turn it them into regexes
     regexes = []
     for line in t:
+        # Ignore empty lines
+        if line == "":
+            continue
+        
         regex = line.replace(".","\.")
         regexes.append(f"^{regex}$")
+        regexes.append(f"^.+\.{regex}$")
         
     return regexes
     
@@ -74,8 +79,8 @@ regexes = fetchList('https://raw.githubusercontent.com/bentasker/adblock_lists_v
 zones = fetchZoneList("https://raw.githubusercontent.com/bentasker/adblock_lists_v2/master/lists/zones.txt")
 
 
-# Merge them
-merged = regexes + zones
+# Merge them and remove any empty values
+merged = list(filter(None, regexes + zones))
 
 # De-dupe and sort
 merged = list(set(merged))
