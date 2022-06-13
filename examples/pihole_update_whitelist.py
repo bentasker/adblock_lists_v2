@@ -4,7 +4,9 @@
 #
 # Implemented for jira-projects/ADBLK#4
 #
-
+# For an example of how to deploy this script, see 
+# See https://www.bentasker.co.uk/posts/documentation/general/refreshing-piholes-regex-block-list-from-external-sources.html#installation
+#
 '''
 License: BSD 3-Clause
 
