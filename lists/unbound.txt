@@ -76,6 +76,8 @@ local-zone: "breakfastboat.com" redirect
 local-data: "breakfastboat.com A 127.0.0.1"
 local-zone: "breezybath.com" redirect
 local-data: "breezybath.com A 127.0.0.1"
+local-zone: "can-promatics.com" redirect
+local-data: "can-promatics.com A 127.0.0.1"
 local-zone: "captifymedia.com" redirect
 local-data: "captifymedia.com A 127.0.0.1"
 local-zone: "caringzinc.com" redirect
@@ -96,6 +98,10 @@ local-zone: "coinhive.com" redirect
 local-data: "coinhive.com A 127.0.0.1"
 local-zone: "commoncannon.com" redirect
 local-data: "commoncannon.com A 127.0.0.1"
+local-zone: "conversionfanaticsapp.net" redirect
+local-data: "conversionfanaticsapp.net A 127.0.0.1"
+local-zone: "conversionfanaticsappuk.com" redirect
+local-data: "conversionfanaticsappuk.com A 127.0.0.1"
 local-zone: "cpmclick.com" redirect
 local-data: "cpmclick.com A 127.0.0.1"
 local-zone: "cubchannel.com" redirect
@@ -342,6 +348,8 @@ local-zone: "udkcrj.com" redirect
 local-data: "udkcrj.com A 127.0.0.1"
 local-zone: "uk-id-91-user.com" redirect
 local-data: "uk-id-91-user.com A 127.0.0.1"
+local-zone: "uk-promatics.com" redirect
+local-data: "uk-promatics.com A 127.0.0.1"
 local-zone: "unbecominghall.com" redirect
 local-data: "unbecominghall.com A 127.0.0.1"
 local-zone: "unequalbrake.com" redirect
