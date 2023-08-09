@@ -91,3 +91,4 @@ ioniaukmla.xyz
 csoob.xyz
 api.news-headlines.co
 d3t3z4teexdk2r.cloudfront.net
+cdn.devlooped.com

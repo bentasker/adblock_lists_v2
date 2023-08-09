@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308071045
+! Version: 202308092018
 ! Title: B Tasker
-! Last modified: Mon  7 Aug 10:45:45 BST 2023
+! Last modified: Wed  9 Aug 20:18:48 BST 2023
 ! Expires: 4 days (update frequency)
 ! Homepage: https://projects.bentasker.co.uk/gils_projects/project/jira-projects/ADBLK.html
 ! Licence: https://www.bentasker.co.uk/licensedetails
@@ -101,6 +101,7 @@
 ||csoob.xyz^*
 ||api.news-headlines.co^*
 ||d3t3z4teexdk2r.cloudfront.net^*
+||cdn.devlooped.com^*
 ||abasir.com^*
 ||aboage.com^*
 ||acinuf.com^*
