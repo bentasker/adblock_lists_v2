@@ -86,6 +86,8 @@ local-zone: "ccdkyvyw.com" redirect
 local-data: "ccdkyvyw.com A 127.0.0.1"
 local-zone: "ccgateway.net" redirect
 local-data: "ccgateway.net A 127.0.0.1"
+local-zone: "cdn.tinypass.com" redirect
+local-data: "cdn.tinypass.com A 127.0.0.1"
 local-zone: "clevertap.com" redirect
 local-data: "clevertap.com A 127.0.0.1"
 local-zone: "clickadu.com" redirect
@@ -136,6 +138,8 @@ local-zone: "eum-appdynamics.com" redirect
 local-data: "eum-appdynamics.com A 127.0.0.1"
 local-zone: "exelator.com" redirect
 local-data: "exelator.com A 127.0.0.1"
+local-zone: "experience.tinypass.com" redirect
+local-data: "experience.tinypass.com A 127.0.0.1"
 local-zone: "fbbjlubvwmwd.com" redirect
 local-data: "fbbjlubvwmwd.com A 127.0.0.1"
 local-zone: "fearfulflag.com" redirect
@@ -182,6 +186,8 @@ local-zone: "hmrcmeclaim.com" redirect
 local-data: "hmrcmeclaim.com A 127.0.0.1"
 local-zone: "ichlnk.com" redirect
 local-data: "ichlnk.com A 127.0.0.1"
+local-zone: "id.tinypass.com" redirect
+local-data: "id.tinypass.com A 127.0.0.1"
 local-zone: "ieqprskfariw.com" redirect
 local-data: "ieqprskfariw.com A 127.0.0.1"
 local-zone: "igupodzh.com" redirect
@@ -336,6 +342,8 @@ local-zone: "thecloudtrader.com" redirect
 local-data: "thecloudtrader.com A 127.0.0.1"
 local-zone: "theoxfordmethod.com" redirect
 local-data: "theoxfordmethod.com A 127.0.0.1"
+local-zone: "tinypass.com" redirect
+local-data: "tinypass.com A 127.0.0.1"
 local-zone: "trafficnetworkads24.com" redirect
 local-data: "trafficnetworkads24.com A 127.0.0.1"
 local-zone: "truthfulturn.com" redirect
@@ -1208,8 +1216,6 @@ local-data: "exemix.com A 127.0.0.1"
 local-data: "exemix.com AAAA ::1"
 local-data: "exemph.com A 127.0.0.1"
 local-data: "exemph.com AAAA ::1"
-local-data: "experience.tinypass.com A 127.0.0.1"
-local-data: "experience.tinypass.com AAAA ::1"
 local-data: "exteet.com A 127.0.0.1"
 local-data: "exteet.com AAAA ::1"
 local-data: "extoso.com A 127.0.0.1"
@@ -1502,8 +1508,6 @@ local-data: "idlinz.com A 127.0.0.1"
 local-data: "idlinz.com AAAA ::1"
 local-data: "idorld.com A 127.0.0.1"
 local-data: "idorld.com AAAA ::1"
-local-data: "id.tinypass.com A 127.0.0.1"
-local-data: "id.tinypass.com AAAA ::1"
 local-data: "ihogaetw.com A 127.0.0.1"
 local-data: "ihogaetw.com AAAA ::1"
 local-data: "illfatedsnail.com A 127.0.0.1"
