@@ -218,6 +218,8 @@ cigade.com
 clainence.com
 clearcomb.com
 cliand.com
+clientsdk.brdtnet.com
+clientsdk.bright-sdk.com
 cloisteredhydrant.com
 cloudsdestruction.com
 clucti.com
@@ -831,6 +833,9 @@ prinue.com
 profitrumour.com
 profusesupport.com
 provideplant.com
+proxyjs.brdtnet.com
+proxyjs.bright-sdk.com
+proxyjs.luminatinet.com
 psasar.com
 pubwes.com
 puffyloss.com
